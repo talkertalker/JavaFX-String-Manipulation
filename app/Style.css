@@ -1,0 +1,34 @@
+.root {
+	-fx-alignment: center;
+	-fx-font-family: Courier;
+	-fx-padding: 20px 10px;
+	-fx-background-color: #f9f9f9;
+}
+
+.header {
+	-fx-font-family: Arial;
+	-fx-font-size: 20px;
+	-fx-background-color: #e8f0fc;
+	-fx-padding: 0 10;
+}
+
+.exp {
+	-fx-font-family: Arial;
+	-fx-font-size: 17px;
+}
+
+.row, .row2 {
+	-fx-alignment: center;
+}
+
+.userInLabel {
+	-fx-translate-x: -294px;
+}
+
+.userInLabel, .userOutLabel {
+	-fx-underline: true;
+}
+
+.btn:hover {
+	-fx-cursor: hand;
+}
